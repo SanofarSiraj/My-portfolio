@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    
+}
+.Hero{
+    width: 70%;
+    height: 50vh;
+    background: url(img/bg1.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.photo{
+    max-height: 170px;
+}
+
+.background{
+    height: 100px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #7f7f7f;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #fd4766;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+}
+.btn:hover{
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.content .title{
+    color: #1f1f25;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1{
+    color: #5e5e5f;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 100%;
+}
+.content h1 span{
+    color: #fd4766;
+}
+.content p{
+    width: 55%;
+    color: #757575;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 40px;
+    color: rgb(115, 112, 112);
+    font-weight: bolder;
+    text-decoration-line: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.About{
+    margin-top: 250px;
+    padding: 50;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(212, 211, 211);
+    
+}
+
+.WorkExperience{
+    margin-top: 50px;
+    padding: 50;
+    font-style: italic;
+    color: rgb(212, 211, 211);
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.Projects{
+    
+    margin-top: 250px;
+    padding: 50;
+    font-style: italic;
+    color: rgb(212, 211, 211);
+    font-family:'Times New Roman', Times, serif;
+}
+.Contact{
+
+margin-top: 30px;
+    padding: 50;
+    font-style: italic;
+    font-display: fallback;
+    color: rgb(212, 211, 211);
+    font-family:'Times New Roman', Times, serif;
+}
+
+h3{
+    font-size: 40px;
+    color: rgb(115, 112, 112);
+    font-weight: bolder;
+    text-decoration-line: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4{
+    font-size: 40px;
+    color: rgb(115, 112, 112);
+    font-weight: bolder;
+    text-decoration-line: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h5{
+    font-size: 40px;
+    color: rgb(115, 112, 112);
+    font-weight: bolder;
+    text-decoration-line: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
